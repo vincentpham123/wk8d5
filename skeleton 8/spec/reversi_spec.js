@@ -23,7 +23,7 @@ describe("Piece", function () {
   });
 
   describe('#toString', function () {
-    it('should return a letter representing the color', function () {
+    it('should return a letteri representing the color', function () {
       expect(lightPiece.toString()).toEqual('W');
       expect(darkPiece.toString()).toEqual('B');
     });
